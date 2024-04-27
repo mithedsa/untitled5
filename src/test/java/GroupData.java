@@ -2,7 +2,7 @@ public class GroupData {
     private String addText;
     private String keyWord;
 
-//обязательный
+    //обязательный
     public GroupData(String addText, String keyWord) {
         this.addText = addText;
         this.keyWord = keyWord;
@@ -17,7 +17,7 @@ public class GroupData {
         this.addText = addText;
     }
 
-//необязательный
+    //необязательный
     public String getKeyWord() {
         return keyWord;
     }

@@ -41,6 +41,7 @@ public class NoteHelper extends HelperBase {
     }
 
 
+
     public String getLastEditNote() {
         WebElement noteElement = driver.findElement(By.xpath("(//div[contains(@class, 'dt')])[last()]"));
         return noteElement.getText();
